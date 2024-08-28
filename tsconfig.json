@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES2016",
+    "module": "CommonJS",
+    "lib": ["es6", "dom"],
+    "strict": true,
+    "allowJs": true,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": false,
+    "declaration": true,
+    "rootDir": "src",
+    "outDir": "build",
+    "resolveJsonModule": true
+  },
+
+  "include": ["src/index.tsx"],
+  "exclude": ["node_modules"]
+}
